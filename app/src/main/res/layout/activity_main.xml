@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toTopOf="@+id/row2"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/dog"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="launchSecondActivity"
+            android:text="@string/dog"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/guinea_pig"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="launchSecondActivity"
+            android:text="@string/guinea_pig"
+            android:textSize="28sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toTopOf="@+id/row3"
+        app:layout_constraintTop_toBottomOf="@id/row1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="503dp">
+
+        <Button
+            android:id="@+id/crickets"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="launchSecondActivity"
+            android:text="@string/crickets"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/hyena"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="launchSecondActivity"
+            android:text="@string/hyena"
+            android:textSize="28sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toTopOf="@+id/row4"
+        app:layout_constraintTop_toBottomOf="@id/row2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="300dp">
+
+        <Button
+            android:id="@+id/seagulls"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="launchSecondActivity"
+            android:text="@string/seagulls"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/water"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="launchSecondActivity"
+            android:text="@string/water"
+            android:textSize="28sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toTopOf="@+id/row5"
+        app:layout_constraintTop_toBottomOf="@id/row3"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/alarm"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="launchSecondActivity"
+            android:text="@string/alarm"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/car"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="launchSecondActivity"
+            android:text="@string/car"
+            android:textSize="28sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toTopOf="@+id/row3"
+        app:layout_constraintTop_toBottomOf="@id/row1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="503dp">
+
+        <Button
+            android:id="@+id/fireplace"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="launchSecondActivity"
+            android:text="@string/fireplace"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/old_record_player"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="launchSecondActivity"
+            android:text="@string/old_record_player"
+            android:textSize="26sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:layout_constraintTop_toBottomOf="@id/row5"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="503dp">
+
+        <Button
+            android:id="@+id/school_bell"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="launchSecondActivity"
+            android:text="@string/school_bell"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/tea_pot_whistle"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="launchSecondActivity"
+            android:text="@string/tea_pot_whistle"
+            android:textSize="28sp" />
+    </TableRow>
+
+</android.support.constraint.ConstraintLayout>

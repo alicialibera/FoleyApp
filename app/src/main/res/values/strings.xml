@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FoleyApp</string>
+    <string name="press_me">Press Me because I gave up trying to get images to work!</string>
+    <string name="dog">dog</string>
+    <string name="guinea_pig">guinea pig</string>
+    <string name="crickets">crickets</string>
+    <string name="hyena">hyena</string>
+    <string name="seagulls">seagulls</string>
+    <string name="water">water</string>
+    <string name="alarm">alarm</string>
+    <string name="car">car</string>
+    <string name="fireplace">fireplace</string>
+    <string name="old_record_player">old record player</string>
+    <string name="school_bell">school bell</string>
+    <string name="tea_pot_whistle">tea pot whistle</string>
+</resources>
